@@ -21,4 +21,6 @@ const backpack = {
   },
 };
 
-console.log("The backpack object:", backpack);
+console.log("The backpack object:", backpack); // will print the whole backpack object
+console.log("Property of object backpack: ", backpack.pocketNum); // will print the pocketNum property
+console.log("property of object inside backpack object: ", backpack.strapLength.left);
