@@ -30,6 +30,9 @@ const newShirt = new Shirt (
 
 console.log("the backpack object: ", newBackpack);
 console.log('Backpack color: ', newBackpack.color);
-
+console.log('-----------------');
 console.log("The shirt object: ", newShirt);
 console.log('Shirt color: ', newShirt.color);
+console.log('previous sleeve length: ', newShirt.sleeveLength);
+console.log(newShirt.changeSleeveLength('half'));
+console.log('New sleeve length: ', newShirt.sleeveLength);
