@@ -18,7 +18,7 @@ const everydayPack = new Backpack(
   "December 5, 2018 15:00:00 PST"
 );
 
-// Traditional way of outputting String with JS Object
+// Traditional way of outputting String with JS Object but template literals is preferable
 const content = "<h1>" + everydayPack.name + "</h1>" 
           + "<ul> <li>Volume: " + everydayPack.volume + "</li>" +
           "<li>Color: " + everydayPack.color + "</li></ul>";
