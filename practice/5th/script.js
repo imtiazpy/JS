@@ -1,4 +1,5 @@
-// Practicing finding Element
+// Practicing finding Element in DOM
+
 
 
 // console.log(document.querySelector(".siteheader"));
@@ -40,7 +41,25 @@ console.log(document.querySelector("main li:first-child").classList.replace("fea
 
 
 
-
+document.querySelector("img").hasAttribute('src')
+true
+document.querySelector("img").hasAttribute('alt')
+true
+document.querySelector("img").getAttribute('alt')
+""
+document.querySelector("img").setAttribute('alt', 'alt-attr');
+undefined
+// alt = "alt-attr"
+document.querySelector("img").setAttribute('title', 'new title');
+undefined
+// adds another attr title with value
+document.querySelector("img").attributes;
+NamedNodeMap {0: src, 1: alt, 2: loading, 3: title, src: src, alt: alt, loading: loading, title: title, length: 4}
+document.querySelector("img").getAttribute("title");
+"new title"
+document.querySelector("img").removeAttribute("title");
+undefined
+// removes the attr title
 
 
 
