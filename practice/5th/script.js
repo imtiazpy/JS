@@ -19,5 +19,28 @@ document.getElementById("pack01").style.backgroundColor = "lightblue";
 document.getElementById("pack02").style.backgroundColor = "olive";
 
 
-const backpack = document.querySelectorAll(".backpack")
+
+
+
+
+
+console.log(document.querySelector("main").className);
+// maincontent
+
+console.log(document.querySelector("main li:first-child").className);
+// feature backpack__volume
+
+console.log(document.querySelector("main li:first-child").classList);
+// ["feature", "backpack__volume"]
+
+
+
+// modifying element classes
+console.log(document.querySelector("main li:first-child").classList.replace("feature", "new"));
+
+
+
+
+
+
 
