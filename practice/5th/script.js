@@ -14,7 +14,13 @@ const main = document.querySelector(".maincontent"); //class
 
 // main.p.style.backgroundColor = "red";
 
+
+// inline style
+document.querySelector(".site-title").style.color = "purple";
+
 document.body.style.backgroundColor = "orange";
+
+document.querySelector(".maincontent").style.backgroundColor = "aqua";
 
 document.getElementById("pack01").style.backgroundColor = "lightblue";
 document.getElementById("pack02").style.backgroundColor = "olive";
@@ -42,23 +48,23 @@ console.log(document.querySelector("main li:first-child").classList.replace("fea
 
 
 document.querySelector("img").hasAttribute('src')
-true
+// true
 document.querySelector("img").hasAttribute('alt')
-true
+// true
 document.querySelector("img").getAttribute('alt')
-""
+// ""
 document.querySelector("img").setAttribute('alt', 'alt-attr');
-undefined
+// undefined
 // alt = "alt-attr"
 document.querySelector("img").setAttribute('title', 'new title');
-undefined
+// undefined
 // adds another attr title with value
 document.querySelector("img").attributes;
-NamedNodeMap {0: src, 1: alt, 2: loading, 3: title, src: src, alt: alt, loading: loading, title: title, length: 4}
+// NamedNodeMap {0: src, 1: alt, 2: loading, 3: title, src: src, alt: alt, loading: loading, title: title, length: 4}
 document.querySelector("img").getAttribute("title");
-"new title"
+// "new title"
 document.querySelector("img").removeAttribute("title");
-undefined
+// undefined
 // removes the attr title
 
 
