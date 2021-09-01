@@ -48,6 +48,9 @@ const { name, profession } = myObject;
 // console.log(name, profession)
 
 const [first, balance] = numbers;
-console.log(balance);
+// console.log(balance);
+
+
+
 
 
